@@ -6,24 +6,18 @@ Children:
   Id: g=2cd6b51a66ffd344a8b2b3dc808f5045
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Torque
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Frequency
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Voltage1
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Voltage2
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
 - Name: Voltage3
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0

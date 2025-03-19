@@ -1,2 +1,67 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
+Children:
+- Name: ClockLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: UTCTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: ns=4;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "9996e8e9dc11a5c3e3631c6fb9425d2d",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }
